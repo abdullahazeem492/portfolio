@@ -1,0 +1,67 @@
+=====================================================
+  PORTFOLIO DEPLOYMENT GUIDE — ABDULLAH AZEEM
+  GitHub → Vercel → LinkedIn
+=====================================================
+
+STEP 1: DOWNLOAD THE PORTFOLIO FOLDER
+======================================
+Download these 3 files from Claude's output:
+  • index.html
+  • vercel.json  
+  • README.md
+
+Put them in a folder called: portfolio
+
+STEP 2: PUSH TO GITHUB
+=======================
+Your GitHub repo: https://github.com/abdullahazeem492/portfolio
+
+Open terminal/cmd in your portfolio folder and run:
+
+  git init
+  git branch -m main
+  git add .
+  git config user.email "azeemabdullah379@gmail.com"
+  git config user.name "Abdullah Azeem"
+  git commit -m "Initial commit - Portfolio"
+  git remote add origin https://github.com/abdullahazeem492/portfolio.git
+  git push -u origin main
+
+⚠️  GitHub will ask for your username + password (use a Personal Access Token as password)
+    Get token: github.com → Settings → Developer Settings → Personal Access Tokens → Tokens (classic) → Generate new token → check "repo" → Generate
+
+STEP 3: DEPLOY ON VERCEL (FREE)
+================================
+1. Go to: https://vercel.com
+2. Click "Sign Up" → choose "Continue with GitHub"
+3. Authorize Vercel to access your GitHub
+4. Click "Add New Project"
+5. Find and click "abdullahazeem492/portfolio"
+6. Click DEPLOY (leave all settings as default)
+7. Wait ~30 seconds → Your site is LIVE! 🎉
+
+Your live URL will be something like:
+  https://portfolio-abdullahazeem492.vercel.app
+  OR
+  https://abdullahazeem492.vercel.app
+
+You can also set a custom domain if you have one.
+
+STEP 4: ADD TO LINKEDIN
+========================
+1. Go to: https://www.linkedin.com/in/abdullah-azeem-221b6630a/
+2. Click "Edit profile" (pencil icon)
+3. Scroll to "Featured" section → click "+"
+4. Choose "Add a link"
+5. Paste your Vercel URL
+6. Title: "Portfolio Website"
+7. Description: "My software engineering portfolio — projects, skills & contact"
+8. Save!
+
+ALTERNATIVELY — add it to your Contact Info:
+1. Edit profile → Contact info → Website
+2. Paste Vercel URL → Save
+
+=====================================================
+  DONE! Your portfolio is live and on your LinkedIn 🚀
+=====================================================
