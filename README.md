@@ -3,7 +3,7 @@
 A modern, responsive software engineering portfolio built with HTML, CSS, and JavaScript.
 
 ## 🔗 Live Site
-Deployed on Vercel — [View Live](https://abdullahazeem492.vercel.app)
+Deployed on GitHub Pages — [View Live](https://abdullahazeem492.github.io/portfolio/)
 
 ## 📌 Sections
 - Hero — Animated intro with particle canvas
